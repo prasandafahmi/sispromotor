@@ -279,9 +279,9 @@ require_once(APPPATH.'third_party/PHPMailer-master/PHPMailerAutoload.php');
             </body>
             </html>
         ';
-        $destino = "nur_halimah21@rocketmail.com"; // Who is addressed the email to
+        $destino = "supersispromotor@gmail.com"; // Who is addressed the email to
         $mail->AddAddress($destino, "Receiver");
-        $mail->AddCC("panut_nani@yahoo.com", "Receiver");
+        $mail->AddCC("supersispromotor@gmail.com", "Receiver");
         $mail->Send();
                 //
         
@@ -373,10 +373,9 @@ require_once(APPPATH.'third_party/PHPMailer-master/PHPMailerAutoload.php');
             </body>
             </html>
         ';
-        $destino = "ismupurnaningsih01@gmail.com"; // Who is addressed the email to
+        $destino = "supersispromotor@gmail.com"; // Who is addressed the email to
         $mail->AddAddress($destino, "Receiver");
         $mail->Send();
-        
         $email=$this->session->userdata("email");
         $nama = $this->session->userdata("nama");
         require_once(APPPATH.'third_party/PHPMailer-master/PHPMailerAutoload.php');
@@ -501,9 +500,9 @@ require_once(APPPATH.'third_party/PHPMailer-master/PHPMailerAutoload.php');
             </body>
             </html>
         ';
-        $destino = "ismupurnaningsih01@gmail.com"; // Who is addressed the email to
+        $destino = "supersispromotor@gmail.com"; // Who is addressed the email to
         $mail->AddAddress($destino, "Receiver");
-        $mail->AddCC("sindyandiani96@gmail.com", "Receiver");
+        $mail->AddCC("supersispromotor@gmail.com", "Receiver");
         $mail->Send();
                 //
         
@@ -900,12 +899,12 @@ $data['order']= $this->Crud_m->selecttrack($id);
         if($alat>0){
             //email ke admin
         $mail = new PHPMailer();
-        $destino="ismupurnaningsih01@gmail.com"; // Who is addressed the email to
+        $destino="supersispromotor@gmail.com"; // Who is addressed the email to
         $mail->AddAddress($destino, "Receiver");
-        $mail->AddCC('dian.nurcahyanto.0@gmail.com', 'Receiver');
-        $mail->AddCC('gitaazizahptr@gmail.com', 'Receiver');
-        $mail->AddCC('ilyasmould@yahoo.com', 'Receiver');
-        $mail->AddCC('mulyadi.muly72@yahoo.co.id', 'Receiver');
+        $mail->AddCC('supersispromotor@gmail.com', 'Receiver');
+        $mail->AddCC('supersispromotor@gmail.com', 'Receiver');
+        $mail->AddCC('supersispromotor@gmail.com', 'Receiver');
+        $mail->AddCC('supersispromotor@gmail.com', 'Receiver');
 
         $mail->IsSMTP(); // we are going to use SMTP
         $mail->SMTPAuth   = true; // enabled SMTP authentication
@@ -937,19 +936,19 @@ $data['order']= $this->Crud_m->selecttrack($id);
           if($lab>0){
             //email ke admin
         $mail = new PHPMailer();
-             $destino="atityeast@gmail.com"; // Who is addressed the email to
+             $destino="supersispromotor@gmail.com"; // Who is addressed the email to
         $mail->AddAddress($destino, "Receiver");
-        $mail->AddCC('ilyasmould@yahoo.com', 'Receiver');
-        $mail->AddCC('trilisty01@gmail.com', 'Receiver');
-        $mail->AddCC('i.nyoman.sumerta@lipi.go.id', 'Receiver');
-        $mail->AddCC('sitimeliah@gmail.com', 'Receiver');
-        $mail->AddCC('rubysbio@gmail.com', 'Receiver');
-        $mail->AddCC('adelia_yunis@yahoo.co.id', 'Receiver');
-        $mail->AddCC('deborachristin22@gmail.com', 'Receiver');
-        $mail->AddCC('miakusiati.charis@gmail.com', 'Receiver');
-        $mail->AddCC('yeniyuliani728@gmail.com', 'Receiver');
-        $mail->AddCC('dian.nurcahyanto.0@gmail.com', 'Receiver');
-        $mail->AddCC('gitaazizahptr@gmail.com', 'Receiver');
+        $mail->AddCC('supersispromotor@gmail.com', 'Receiver');
+        $mail->AddCC('supersispromotor@gmail.com', 'Receiver');
+        $mail->AddCC('supersispromotor@gmail.com', 'Receiver');
+        $mail->AddCC('supersispromotor@gmail.com', 'Receiver');
+        $mail->AddCC('supersispromotor@gmail.com', 'Receiver');
+        $mail->AddCC('supersispromotor@gmail.com', 'Receiver');
+        $mail->AddCC('supersispromotor@gmail.com', 'Receiver');
+        $mail->AddCC('supersispromotor@gmail.com', 'Receiver');
+        $mail->AddCC('supersispromotor@gmail.com', 'Receiver');
+        $mail->AddCC('supersispromotor@gmail.com', 'Receiver');
+        $mail->AddCC('supersispromotor@gmail.com', 'Receiver');
         $mail->IsSMTP(); // we are going to use SMTP
         $mail->SMTPAuth   = true; // enabled SMTP authentication
         $mail->SMTPSecure = "ssl";  // prefix for secure protocol to connect to the server
@@ -980,10 +979,10 @@ $data['order']= $this->Crud_m->selecttrack($id);
         if($pus>0){
             //email ke admin
         $mail = new PHPMailer();
-             $destino="teti.firdaus@yahoo.com"; // Who is addressed the email to
+             $destino="supersispromotor@gmail.com"; // Who is addressed the email to
         $mail->AddAddress($destino, "Receiver");
-        $mail->AddCC('aging17@yahoo.com', 'Receiver');
-        $mail->AddCC('d2n.scriptproject@gmail.com', 'Receiver');
+        $mail->AddCC('supersispromotor@gmail', 'Receiver');
+        $mail->AddCC('supersispromotor@gmail', 'Receiver');
         $mail->IsSMTP(); // we are going to use SMTP
         $mail->SMTPAuth   = true; // enabled SMTP authentication
         $mail->SMTPSecure = "ssl";  // prefix for secure protocol to connect to the server

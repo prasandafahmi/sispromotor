@@ -242,7 +242,7 @@ class Pemesanan extends CI_Controller {
         
         //email ke admin
         $mail = new PHPMailer();
-             $destino="nur_halimah21@rocketmail.com"; // Who is addressed the email to
+             $destino="supersispromotor@gmail.com"; // Who is addressed the email to
         $mail->AddAddress($destino, "Receiver");
         $mail->AddCC('inacc@mail.lipi.go.id', 'Receiver');
         $mail->IsSMTP(); // we are going to use SMTP

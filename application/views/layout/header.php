@@ -17,13 +17,13 @@
    
     <link rel="shortcut icon" href="<?php echo base_url();?>assets/images/lipi/lipi.png">
     <!--DATA TABLE-->
-	<script type="text/javascript" language="javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" language="javascript" src="<?php echo base_url('assets/jquery.js') ?>"></script>
 	
 	
     <link href="<?php echo base_url('twd-theme/videojs/video-js.css');?>" rel="stylesheet">
     <script src="<?php echo base_url('twd-theme/videojs/video.js');?>"></script>
     <link rel="stylesheet" href="<?php echo base_url('twd-theme/style.css');?>">
 	
-	<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/plug-ins/9dcbecd42ad/integration/bootstrap/3/dataTables.bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="datatables.bootstrap.css">
 
 </head>

@@ -2,9 +2,10 @@
 <html>
 <?php $this->load->view("layout/header.php")?>
    
-<script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/modules/exporting.js"></script>    
-    
+<!-- <script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>   -->  
+    <script type="text/javascript" src="<?php echo base_url('assets/highcharts.js'); ?>"></script>
+    <script type="text/javascript" src="<?php echo base_url('assets/exporting.js'); ?>"></script>
 <body>
  <?php $this->load->view("layout/bar.php")?>
     <div id="wrapper">

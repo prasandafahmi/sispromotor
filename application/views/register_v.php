@@ -201,7 +201,7 @@
                                              </li><br>
                                                
                                               
-                                             <form action="<?php echo site_url(); ?>/Register/insert_user" method="POST" class="form-signin">
+                                             <form action="<?php echo site_url('Register/insert_user'); ?>" method="POST" class="form-signin">
                                                <table class="table-padding ">
                                                <tr>
                                                    <td width="5%" class="kirri">Nama</td>
